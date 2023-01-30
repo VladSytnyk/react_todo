@@ -6,6 +6,7 @@ export default function Todo({ todo, toggleTodo }) {
   }
   return (
     <div className="todo">
+     
       <label>
         <input
           type="checkbox"

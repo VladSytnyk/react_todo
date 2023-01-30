@@ -45,6 +45,7 @@ function App() {
   return (
     <>
       <TodoList todos={todos} toggleTodo={toggleTodo} />
+      <div>HELLO WORLD</div>
       <input ref={todoNameRef} type="text" />
       <button onClick={handleAddTodo}>Add todo</button>
       <button onClick={handleClearTodo}>Clear</button>
